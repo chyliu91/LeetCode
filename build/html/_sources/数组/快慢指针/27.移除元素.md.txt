@@ -1,0 +1,33 @@
+# [27.移除元素](https://leetcode.cn/problems/remove-element/description/)
+
+## 题目
+![](./images/27.png)
+
+## 思路
+- 快慢指针的思路:
+    - 一次遍历数组，将不等于指定值的数值往前面放置
+- 时间复杂度: $O(n)$
+- 空间复杂度: $O(1)$
+
+## 题解
+```
+class Solution {
+public:
+    int removeElement(vector<int>& nums, int val) {
+        int n = nums.size();
+        if (n <= 0) {
+            return 0;
+        }
+
+        int fast = 0, slow = 0;
+        while (fast < n) {
+            if (nums[fast] != val) {
+                nums[slow] = nums[fast];
+                slow++;
+            }
+            fast++;
+        }
+        return slow;
+    }
+};
+```
