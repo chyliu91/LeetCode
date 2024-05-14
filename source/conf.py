@@ -35,3 +35,5 @@ source_parsers = {
 }
 source_suffix = ['.rst', '.md']
 extensions = ['recommonmark','sphinx_markdown_tables'] 
+
+pdf_documents = [('index', u'rst2pdf', u"Inkscape Beginners' Guide", u'Inkscape Documentation Authors'),]
