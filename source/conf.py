@@ -35,9 +35,7 @@ source_parsers = {
 }
 source_suffix = ['.rst', '.md']
 
-mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
 extensions = ['recommonmark','sphinx_markdown_tables', 'sphinx.ext.mathjax'] 
-
 
 
 
