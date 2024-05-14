@@ -34,7 +34,7 @@ source_parsers = {
   '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
-extensions = ['recommonmark','sphinx_markdown_tables', 'sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx.ext.mathjax'] 
+extensions = ['recommonmark','sphinx_markdown_tables'] 
 
 
 
