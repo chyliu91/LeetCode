@@ -1,26 +1,17 @@
-# 站点名称
 site_name: 'Enjoy-LeetCode'
-# 仓库链接
 repo_url: https://github.com/chyliu91/LeetCode
-# 作者
 site_author: 'Chay'
-# 版权信息
 copyright: '2024, Chay'
-# 源文件目录
 docs_dir: 'docs'
-# 生成静态文件目录
 site_dir: 'site'
-# 额外信息
 extra:
-    # 版本号
     version: 1.0.0
 
-# 主题
+
 theme: 
-    # name: 'readthedocs'
     # name: 'mkdocs'
     name: 'material'
-# markdown扩展
+
 markdown_extensions:
     - toc:
         permalink: true
@@ -29,7 +20,12 @@ markdown_extensions:
 extra_javascript:
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-# 导航
+extra_css:
+    - css/extra.css
+
+plugins:
+    - search
+
 nav:
     - 主页: index.md
     - 数组: 
