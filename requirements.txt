@@ -3,3 +3,4 @@ mkdocs-material==9.5.22
 mkdocs-minify-plugin==0.8.0
 Markdown==3.6
 markdown-katex==202112.1034
+mkdocs-pdf-export-plugin=0.5.10

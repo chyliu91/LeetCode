@@ -14,6 +14,7 @@ site_dir: 'site'
 extra:
     # 版本号
     version: 1.0.0
+
 # 主题
 theme: 
     # name: 'readthedocs'
@@ -27,6 +28,13 @@ markdown_extensions:
 
 extra_javascript:
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+plugins:
+  - search
+  - pdf-export:
+      verbose: false
+      media_type: print
+      
 # 导航
 nav:
     - Home: index.md
