@@ -1,8 +1,5 @@
-sphinx_rtd_theme
-recommonmark
-sphinx-markdown-tables
-mkdocs==1.0.4
-mkdocs-material==4.6.0
-mkdocs-minify-plugin==0.2.1
-Markdown==3.1.1
-markdown-katex==201912.11b0
+mkdocs==1.6.0
+mkdocs-material==9.5.22
+mkdocs-minify-plugin==0.8.0
+Markdown==3.6
+markdown-katex==202112.1034
