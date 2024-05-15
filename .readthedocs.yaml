@@ -8,9 +8,12 @@ build:
   tools:
     python: "3.8"
 
-python:
-  install:
-    - requirements: ./requirements.txt
 formats:
   - pdf
   - epub
+  
+python:
+  install:
+    - requirements: ./requirements.txt
+
+
