@@ -29,15 +29,9 @@ markdown_extensions:
 extra_javascript:
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-plugins:
-  - search
-  - pdf-export:
-      verbose: false
-      media_type: print
-      
 # 导航
 nav:
-    - Home: index.md
+    - 主页: index.md
     - 数组: 
         - 快慢指针:
             - ./数组/快慢指针/26.删除有序数组中的重复项.md
